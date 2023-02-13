@@ -28,6 +28,8 @@ export type ElementRef<C> = React$ElementRef<C>;
 export type Config<Props, DefaultProps> = React$Config<Props, DefaultProps>;
 export type ChildrenArray<+T> = $ReadOnlyArray<ChildrenArray<T>> | T;
 
+// 导出所有导出，以便它们在测试中可用。
+// 由于某些原因，我们不能在 Flow 中使用 export *from
 // Export all exports so that they're available in tests.
 // We can't use export * from in Flow for some reason.
 export {
