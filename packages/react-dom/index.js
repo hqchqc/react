@@ -7,7 +7,7 @@
  * @flow
  */
 
-//导出所有导出，以便它们在测试中可用。
+//导出所有导出，以便它们在测试中可用。 
 //由于某些原因，我们不能在 Flow 中使用 export *from。
 
 // Export all exports so that they're available in tests.
